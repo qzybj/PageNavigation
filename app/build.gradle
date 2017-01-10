@@ -21,5 +21,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v2.0.0'
 }
