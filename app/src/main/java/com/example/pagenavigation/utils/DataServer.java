@@ -9,7 +9,7 @@ public class DataServer {
 
     public static List<PNItem> getSampleData() {
         List<PNItem> list = new ArrayList<PNItem>();
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 50; i++) {
             list.add(new PNItem("name"+i));
         }
         return list;
